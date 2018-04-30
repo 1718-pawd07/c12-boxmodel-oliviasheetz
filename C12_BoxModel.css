@@ -1,33 +1,27 @@
-/*
-* Programmer Name
-* Date
-* C12 - Box Model
-*/
+/* Olivia Sheetz 
+ 	C12 - Box Model
+	April 30, 2018 */
 
+*{
+	margin: 0px;
+	padding: 0px;
+}	
 
-/* The universal selector */
-
-* {
-
+body {
+	border: 5px dotted lightskyblue;
+	margin: 10px;
+	padding: 25px 50px 25px 25px;
 }
 
-/* Put body attributes here */
-
-body { 
-    
-}
-header {
-    
-}
 main {
-    
+	border: 3px solid deepskyblue;
+	padding: 30px 15px 15px 15px;
 }
-h1 {
-    
+ 
+h1, p{
+	border: 3px dashed slateblue;
+	padding: 15px 30px 15px 15px;
+	margin: 10px;
 }
-p {
-    
-}
-footer {
-    
-}
+
+
